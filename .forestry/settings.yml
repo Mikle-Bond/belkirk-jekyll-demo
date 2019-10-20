@@ -18,6 +18,13 @@ sections:
   - landing-page
   - page
 - type: directory
+  path: _people
+  label: peps
+  create: all
+  match: "*"
+  templates:
+  - person
+- type: directory
   path: _projects
   label: Projects
   create: all
